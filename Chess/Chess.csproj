@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ChessBoard.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChessBoard.txt" />
+  </ItemGroup>
 </Project>
